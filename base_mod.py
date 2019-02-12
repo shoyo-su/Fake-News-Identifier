@@ -17,10 +17,11 @@ dict_1={"death":5,"lost":4} #Yaha pe apne apne words ki word_length likh dena ':
 
 for article in Article_list:
     line=article[line]
-    word_len=dict_1["Your word"]
+    
 
     index=0
     while index<30:
+        word_len=dict_1["Your word"]
         word=line[word_len]
 
         if word=="lost":
@@ -39,6 +40,7 @@ for article in Article_list:
             
     index1=0
     while index1<30:
+        word_len=dict_1["Your word"]
         word=line[word_len]
 
         if word=="Death":
@@ -52,6 +54,7 @@ for article in Article_list:
 
     index2=0
     while index2<30:
+        word_len=dict_1["Your word"]
         word=line[word_len]
 
         if word=="":
@@ -65,6 +68,7 @@ for article in Article_list:
 
     index3=0
     while index3<30:
+        word_len=dict_1["Your word"]
         word=line[word_len]
 
         if word=="":
@@ -85,6 +89,7 @@ for article in Article_list:
 
     index4=0
     while index4<30:
+        word_len=dict_1["Your word"]
         word=line[word_len]
 
         if word=="":
@@ -99,6 +104,7 @@ for article in Article_list:
 
     index5=0
     while index5<30:
+        word_len=dict_1["Your word"]
         word=line[word_len]
 
         if word=="":
