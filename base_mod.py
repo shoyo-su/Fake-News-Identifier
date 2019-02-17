@@ -31,7 +31,18 @@ for article in Article_list:
             lost=lost+1
 
         #yaha niche baki elifs ayenge
-
+        if  word=="death":
+            death+=1
+        elif word=="demise":
+            death+=1
+        elif word=="died":
+            death+=1
+        elif word=="passed away":
+            death+=1
+        elif word=="casualty":
+            death+=1
+        else:
+            
 
 
 
