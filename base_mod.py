@@ -130,7 +130,7 @@ Date_Time=0
 
 line=30
 
-dict_1={"death":5,"lost":4} #Yaha pe apne apne words ki word_length likh dena ':' laga ke
+dict_1={"death":5,"lost":4, "Adults":6} #Yaha pe apne apne words ki word_length likh dena ':' laga ke
 
 for article in Article_list:
     line=article[line]
@@ -182,14 +182,19 @@ for article in Article_list:
 
     index2=0
     while index2<30:
-        word_len=dict_1["Your word"]
+        word_len=dict_1["Adults"]
         word=line[word_len]
 
-        if word=="":
-            your_word=your_word+1
+        if word=="Adult":
+            Adults=Adults+1
             
-        elif word=="":
-            your_word=your_word+1
+        elif word=="grown-up":
+            Adults=Adults+1
+           elif word=="ripened":
+               Adults=Adults+1
+           elif word=="ripe":
+               Adults=Adults+1
+           else:
 
         index2=index2+1
         
